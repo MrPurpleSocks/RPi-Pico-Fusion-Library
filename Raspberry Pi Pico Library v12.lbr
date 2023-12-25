@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" blackcolor="0xccffe74c" whitecolor="0xccffe74c" coloredcolor="0xccffe74c" blackhighlight="0xccffd900" whitehighlight="0xccffd900" coloredhighlight="0xccffd900" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" blackcolor="0xcc91d178" whitecolor="0xcc91d178" coloredcolor="0xcc91d178" blackhighlight="0xcc3bd100" whitehighlight="0xcc3bd100" coloredhighlight="0xcc3bd100" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" blackcolor="0xccffdda1" whitecolor="0xccffdda1" coloredcolor="0xccffdda1" blackhighlight="0xccffa200" whitehighlight="0xccffa200" coloredhighlight="0xccffa200" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" blackcolor="0xcc5fad56" whitecolor="0xcc5fad56" coloredcolor="0xcc5fad56" blackhighlight="0xcc14ad00" whitehighlight="0xcc14ad00" coloredhighlight="0xcc14ad00" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" blackcolor="0xcc5e897c" whitecolor="0xcc5e897c" coloredcolor="0xcc5e897c" blackhighlight="0xcc00895e" whitehighlight="0xcc00895e" coloredhighlight="0xcc00895e" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" blackcolor="0xcc6f45b4" whitecolor="0xcc6f45b4" coloredcolor="0xcc6f45b4" blackhighlight="0xcc4200b4" whitehighlight="0xcc4200b4" coloredhighlight="0xcc4200b4" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" blackcolor="0xcc516363" whitecolor="0xcc516363" coloredcolor="0xcc516363" blackhighlight="0xcc006363" whitehighlight="0xcc006363" coloredhighlight="0xcc006363" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" blackcolor="0xccd6a2ad" whitecolor="0xccd6a2ad" coloredcolor="0xccd6a2ad" blackhighlight="0xccd6002e" whitehighlight="0xccd6002e" coloredhighlight="0xccd6002e" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" blackcolor="0xccef476f" whitecolor="0xccef476f" coloredcolor="0xccef476f" blackhighlight="0xccef003c" whitehighlight="0xccef003c" coloredhighlight="0xccef003c" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" blackcolor="0xccd4dcff" whitecolor="0xccd4dcff" coloredcolor="0xccd4dcff" blackhighlight="0xcc0033ff" whitehighlight="0xcc0033ff" coloredhighlight="0xcc0033ff" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" blackcolor="0xcc00bfb2" whitecolor="0xcc00bfb2" coloredcolor="0xcc00bfb2" blackhighlight="0xcc00bfaf" whitehighlight="0xcc00bfaf" coloredhighlight="0xcc00bfaf" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" blackcolor="0xcc65def1" whitecolor="0xcc65def1" coloredcolor="0xcc65def1" blackhighlight="0xcc00d1f1" whitehighlight="0xcc00d1f1" coloredhighlight="0xcc00d1f1" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" blackcolor="0xccc55ea3" whitecolor="0xccc55ea3" coloredcolor="0xccc55ea3" blackhighlight="0xccc50087" whitehighlight="0xccc50087" coloredhighlight="0xccc50087" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" blackcolor="0xccf56416" whitecolor="0xccf56416" coloredcolor="0xccf56416" blackhighlight="0xccf55200" whitehighlight="0xccf55200" coloredhighlight="0xccf55200" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" blackcolor="0xccc8c832" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccc8c800" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="BoardOutline" blackcolor="0xcceec643" whitecolor="0xcceec643" coloredcolor="0xcceec643" blackhighlight="0xcceeb300" whitehighlight="0xcceeb300" coloredhighlight="0xcceeb300" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="SilkscreenTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="SilkscreenBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="OriginsTop" blackcolor="0xccafd134" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xcca7d100" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="OriginsBottom" blackcolor="0xccafd134" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xcca7d100" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="NamesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="NamesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="ValuesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="ValuesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="SolderMaskTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="3" visible="no" active="yes"/>
+<layer number="30" name="SolderMaskBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="6" visible="no" active="yes"/>
+<layer number="31" name="StencilTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes"/>
+<layer number="32" name="StencilBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes"/>
+<layer number="39" name="ComponentExcludeTop" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="ComponentExcludeBottom" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="RestrictTop" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="RestrictBottom" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="RestrictVias" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" blackcolor="0xcc32c8c8" whitecolor="0xb432c8c8" coloredcolor="0xb432c8c8" blackhighlight="0xcc00c8c8" whitehighlight="0xb400c8c8" coloredhighlight="0xb400c8c8" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="51" name="DocumentTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="DocumentBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" blackcolor="0xb40000ff" whitecolor="0xcc8252c2" coloredcolor="0xcc8252c2" blackhighlight="0xb40000ff" whitehighlight="0xcc5100c2" coloredhighlight="0xcc5100c2" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" blackcolor="0xb40000ff" whitecolor="0xcc8252c2" coloredcolor="0xcc8252c2" blackhighlight="0xb40000ff" whitehighlight="0xcc5100c2" coloredhighlight="0xcc5100c2" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" blackcolor="0xccffba08" whitecolor="0xccffba08" coloredcolor="0xccffba08" blackhighlight="0xccffb700" whitehighlight="0xccffb700" coloredhighlight="0xccffb700" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" blackcolor="0xccc8c832" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccc8c800" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RPI-PICO" use_placeholder="yes">
+<pad name="P$1" x="-8.89" y="7.62" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$2" x="-8.89" y="5.08" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$3" x="-8.89" y="2.54" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$4" x="-8.89" y="0" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$5" x="-8.89" y="-2.54" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$6" x="-8.89" y="-5.08" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$7" x="-8.89" y="-7.62" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$8" x="-8.89" y="-10.16" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$9" x="-8.89" y="-12.7" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$10" x="-8.89" y="-15.24" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$11" x="-8.89" y="-17.78" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$12" x="-8.89" y="-20.32" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$13" x="-8.89" y="-22.86" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$14" x="-8.89" y="-25.4" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$15" x="-8.89" y="-27.94" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$16" x="-8.89" y="-30.48" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$17" x="-8.89" y="-33.02" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$18" x="-8.89" y="-35.56" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$19" x="-8.89" y="-38.1" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$20" x="-8.89" y="-40.64" drill="0.6" shape="offset" rot="R180"/>
+<pad name="P$21" x="8.89" y="-40.64" drill="0.6" shape="offset"/>
+<pad name="P$22" x="8.89" y="-38.1" drill="0.6" shape="offset"/>
+<pad name="P$23" x="8.89" y="-35.56" drill="0.6" shape="offset"/>
+<pad name="P$24" x="8.89" y="-33.02" drill="0.6" shape="offset"/>
+<pad name="P$25" x="8.89" y="-30.48" drill="0.6" shape="offset"/>
+<pad name="P$26" x="8.89" y="-27.94" drill="0.6" shape="offset"/>
+<pad name="P$27" x="8.89" y="-25.4" drill="0.6" shape="offset"/>
+<pad name="P$28" x="8.89" y="-22.86" drill="0.6" shape="offset"/>
+<pad name="P$29" x="8.89" y="-20.32" drill="0.6" shape="offset"/>
+<pad name="P$30" x="8.89" y="-17.78" drill="0.6" shape="offset"/>
+<pad name="P$31" x="8.89" y="-15.24" drill="0.6" shape="offset"/>
+<pad name="P$32" x="8.89" y="-12.7" drill="0.6" shape="offset"/>
+<pad name="P$33" x="8.89" y="-10.16" drill="0.6" shape="offset"/>
+<pad name="P$34" x="8.89" y="-7.62" drill="0.6" shape="offset"/>
+<pad name="P$35" x="8.89" y="-5.08" drill="0.6" shape="offset"/>
+<pad name="P$36" x="8.89" y="-2.54" drill="0.6" shape="offset"/>
+<pad name="P$37" x="8.89" y="0" drill="0.6" shape="offset"/>
+<pad name="P$38" x="8.89" y="2.54" drill="0.6" shape="offset"/>
+<pad name="P$39" x="8.89" y="5.08" drill="0.6" shape="offset"/>
+<pad name="P$40" x="8.89" y="7.62" drill="0.6" shape="offset"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="RPI-PICO" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.9iZiF216Tjqyogbi5tvA2g?version=4" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="RPI-PICO"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RPI-PICO">
+<pin name="GP0" x="-43.18" y="22.86" length="middle"/>
+<pin name="GP1" x="-43.18" y="17.78" length="middle"/>
+<pin name="GND" x="-43.18" y="12.7" length="middle"/>
+<pin name="GP2" x="-43.18" y="7.62" length="middle"/>
+<pin name="GP3" x="-43.18" y="2.54" length="middle"/>
+<pin name="GP4" x="-43.18" y="-2.54" length="middle"/>
+<pin name="GP5" x="-43.18" y="-7.62" length="middle"/>
+<pin name="GND1" x="-43.18" y="-12.7" length="middle"/>
+<pin name="GP6" x="-43.18" y="-17.78" length="middle"/>
+<pin name="GP7" x="-43.18" y="-22.86" length="middle"/>
+<pin name="GP8" x="-43.18" y="-27.94" length="middle"/>
+<pin name="GP9" x="-43.18" y="-33.02" length="middle"/>
+<pin name="GND2" x="-43.18" y="-38.1" length="middle"/>
+<pin name="GP10" x="-43.18" y="-43.18" length="middle"/>
+<pin name="GP11" x="-43.18" y="-48.26" length="middle"/>
+<pin name="GP12" x="-43.18" y="-53.34" length="middle"/>
+<pin name="GP13" x="-43.18" y="-58.42" length="middle"/>
+<pin name="GND3" x="-43.18" y="-63.5" length="middle"/>
+<pin name="GP14" x="-43.18" y="-68.58" length="middle"/>
+<pin name="GP15" x="-43.18" y="-73.66" length="middle"/>
+<pin name="GP16" x="7.62" y="-73.66" length="middle" rot="R180"/>
+<pin name="GP17" x="7.62" y="-68.58" length="middle" rot="R180"/>
+<pin name="GND4" x="7.62" y="-63.5" length="middle" rot="R180"/>
+<pin name="GP18" x="7.62" y="-58.42" length="middle" rot="R180"/>
+<pin name="GP19" x="7.62" y="-53.34" length="middle" rot="R180"/>
+<pin name="GP20" x="7.62" y="-48.26" length="middle" rot="R180"/>
+<pin name="GP21" x="7.62" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND5" x="7.62" y="-38.1" length="middle" rot="R180"/>
+<pin name="GP22" x="7.62" y="-33.02" length="middle" rot="R180"/>
+<pin name="RUN" x="7.62" y="-27.94" length="middle" rot="R180"/>
+<pin name="GP26" x="7.62" y="-22.86" length="middle" rot="R180"/>
+<pin name="GP27" x="7.62" y="-17.78" length="middle" rot="R180"/>
+<pin name="GND6" x="7.62" y="-12.7" length="middle" rot="R180"/>
+<pin name="GP28" x="7.62" y="-7.62" length="middle" rot="R180"/>
+<pin name="ADC_VREF" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<pin name="3V3" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="3V3_EN" x="7.62" y="7.62" length="middle" rot="R180"/>
+<pin name="GND7" x="7.62" y="12.7" length="middle" rot="R180"/>
+<pin name="VSYS" x="7.62" y="17.78" length="middle" rot="R180"/>
+<pin name="VBUS" x="7.62" y="22.86" length="middle" rot="R180"/>
+<wire x1="-38.1" y1="25.4" x2="-38.1" y2="-76.2" width="0.1524" layer="94"/>
+<wire x1="-38.1" y1="-76.2" x2="2.54" y2="-76.2" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-76.2" x2="2.54" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="25.4" x2="-38.1" y2="25.4" width="0.1524" layer="94"/>
+<text x="-25.4" y="20.32" size="1.778" layer="94">RPi Pico W</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RPI-PICO">
+<gates>
+<gate name="G$1" symbol="RPI-PICO" x="20.32" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="RPI-PICO">
+<connects>
+<connect gate="G$1" pin="3V3" pad="P$36"/>
+<connect gate="G$1" pin="3V3_EN" pad="P$37"/>
+<connect gate="G$1" pin="ADC_VREF" pad="P$35"/>
+<connect gate="G$1" pin="GND" pad="P$3"/>
+<connect gate="G$1" pin="GND1" pad="P$8"/>
+<connect gate="G$1" pin="GND2" pad="P$13"/>
+<connect gate="G$1" pin="GND3" pad="P$18"/>
+<connect gate="G$1" pin="GND4" pad="P$23"/>
+<connect gate="G$1" pin="GND5" pad="P$28"/>
+<connect gate="G$1" pin="GND6" pad="P$33"/>
+<connect gate="G$1" pin="GND7" pad="P$38"/>
+<connect gate="G$1" pin="GP0" pad="P$1"/>
+<connect gate="G$1" pin="GP1" pad="P$2"/>
+<connect gate="G$1" pin="GP10" pad="P$14"/>
+<connect gate="G$1" pin="GP11" pad="P$15"/>
+<connect gate="G$1" pin="GP12" pad="P$16"/>
+<connect gate="G$1" pin="GP13" pad="P$17"/>
+<connect gate="G$1" pin="GP14" pad="P$19"/>
+<connect gate="G$1" pin="GP15" pad="P$20"/>
+<connect gate="G$1" pin="GP16" pad="P$21"/>
+<connect gate="G$1" pin="GP17" pad="P$22"/>
+<connect gate="G$1" pin="GP18" pad="P$24"/>
+<connect gate="G$1" pin="GP19" pad="P$25"/>
+<connect gate="G$1" pin="GP2" pad="P$4"/>
+<connect gate="G$1" pin="GP20" pad="P$26"/>
+<connect gate="G$1" pin="GP21" pad="P$27"/>
+<connect gate="G$1" pin="GP22" pad="P$29"/>
+<connect gate="G$1" pin="GP26" pad="P$31"/>
+<connect gate="G$1" pin="GP27" pad="P$32"/>
+<connect gate="G$1" pin="GP28" pad="P$34"/>
+<connect gate="G$1" pin="GP3" pad="P$5"/>
+<connect gate="G$1" pin="GP4" pad="P$6"/>
+<connect gate="G$1" pin="GP5" pad="P$7"/>
+<connect gate="G$1" pin="GP6" pad="P$9"/>
+<connect gate="G$1" pin="GP7" pad="P$10"/>
+<connect gate="G$1" pin="GP8" pad="P$11"/>
+<connect gate="G$1" pin="GP9" pad="P$12"/>
+<connect gate="G$1" pin="RUN" pad="P$30"/>
+<connect gate="G$1" pin="VBUS" pad="P$40"/>
+<connect gate="G$1" pin="VSYS" pad="P$39"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.9iZiF216Tjqyogbi5tvA2g?version=4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
