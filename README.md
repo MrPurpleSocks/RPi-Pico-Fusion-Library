@@ -5,4 +5,4 @@ This library is licensed under the Creative Commons Attribution-ShareAlike 4.0 I
 ## Can This Be Used For Commercial Use?
 According to the licensing requirements set forth in the CC BY_SA 4.0 license, instituted by the Raspberry Pi foundation, Commecial use is permitted. But, it is requested that the creator is notified of commercial use. Any discreet silkscreen markings must remain unaltered, assuming that the PCB is going to silkscreened.
 
-The CC BY_SA 4.0 license can be found [on the Creative Commons website](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) or on the [repo under LICENSE.md](https://github.com/MrPurpleSocks/RPi-Pico-Eagle-Fusion-Library)
+The CC BY_SA 4.0 license can be found [on the Creative Commons website](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) or on the [repo under LICENSE.md](/license.md)
