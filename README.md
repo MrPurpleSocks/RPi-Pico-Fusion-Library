@@ -1,5 +1,5 @@
 # RPi-Pico-Eagle-Fusion-Library
-A library that contains all components necessary for creating a PCB that incorporates a RPi Pico
+A library that contains all components necessary for creating a PCB that incorporates a RPi Pico or RPi Pico W
 ## Licensing
 This library is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY_SA 4.0) licenses, as required by the terms of the Raspberry Pi's documentation licensisng requirements. The 3D model is licensed from the Raspberry Pi Foundation under CC BY_SA 4.0.
 ## Can This Be Used For Commercial Use?
